@@ -13,7 +13,7 @@ func PwdFiles(FILENAME string) []string {
 
 	files, err := ioutil.ReadDir(".")
 	if err != nil {
-		log.Fatal(err.Error)
+		log.Fatal(err.Error())
 	}
 
 	for _, file := range files {
