@@ -1,19 +1,22 @@
+# gbrn
+
 go batch rename
 
-# build
+## build
 
 ```
 $ make
 ```
 
-# e.g.
+## e.g.
 
 ```
-$pwd
+$ls
 1.txt
 2.txt
 3.txt
 
+$ make
 $ ./gbrn
 
 # open vim
@@ -24,8 +27,12 @@ $ ./gbrn
 + 02.txt
 + 03.txt
 
-$pwd
+$ls
 01.txt
 02.txt
 03.txt
 ```
+
+## demo
+
+[![asciicast](https://asciinema.org/a/ADlvzpLmNzrjXvvt8xuHCrFsi.svg)](https://asciinema.org/a/ADlvzpLmNzrjXvvt8xuHCrFsi)
