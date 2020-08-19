@@ -11,26 +11,27 @@ $ make
 ## e.g.
 
 ```
-$ls
-1.txt
-2.txt
-3.txt
+$ls demo
+test01.txt
+test02.txt
+test03.txt
 
 $ make
-$ ./gbrn
+$ cd demo
+$ ../gbrn
 
 # open vim
-- 1.txt
-- 2.txt
-- 3.txt
-+ 01.txt
-+ 02.txt
-+ 03.txt
+- test01.txt
+- test02.txt
+- test03.txt
++ demo01.txt
++ demo02.txt
++ demo03.txt
 
 $ls
-01.txt
-02.txt
-03.txt
+demo01.txt
+demo02.txt
+demo03.txt
 ```
 
 ## demo
