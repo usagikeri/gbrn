@@ -17,7 +17,7 @@ func init() {
 	if err != nil {
 		log.Fatal(err.Error)
 	}
-	FILENAME = filepath.Join(path, ".tempFiles")
+	FILENAME = filepath.Join(path, ".gbrnTempFile")
 }
 
 func main() {
@@ -30,11 +30,11 @@ func main() {
 
 	flag := util.CheckDuplicate(rename)
 	if !flag {
-		log.Fatal("Error: File name duplicate\n")
+		log.Fatal("Error: Duplicate file name.\n")
 	}
 
 	if len(pwdFiles) != len(rename) {
-		log.Fatal("Error: Invalid format\n")
+		log.Fatal("Error: Invalid format.\n")
 	}
 
 	for i, _ := range pwdFiles {
